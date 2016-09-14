@@ -3,7 +3,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 
-class HelloWorld extends React.Component {
+export default class HelloWorld extends React.Component {
   render() {
     return (
       <div>
@@ -12,5 +12,3 @@ class HelloWorld extends React.Component {
     );
   }
 }
-
-window.HelloWorld = HelloWorld;

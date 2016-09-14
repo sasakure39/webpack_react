@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import Comment from './Comment'
 import createFragment from 'react-addons-create-fragment'
 
